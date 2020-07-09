@@ -1,0 +1,46 @@
+/* ---------- variables ---------- */
+
+// BOOTSTRAP customization
+
+// columns and between spasing
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+// min dimensions for breakpoints current
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 768px,
+  lg: 993px,
+  xl: 1025px
+);
+
+// container max width
+$container-max-widths: (
+  lg: 100%,
+  xl: 1200px + $grid-gutter-width
+);
+
+
+
+
+// CUSTOM FONTS
+$main-font: 'sf-ui', sans-serif;
+
+// COLORS
+$black: #000000;
+$white: #F9FBFB;
+$gray-dark: #181818;
+$blue-light: #23d3f7;
+$red: #E30720;
+$red-error: #f3a8a2;
+$lines-color: #dedede;
+// Phantasma
+$blue: #2479e4;
+$blue-lightest: #cde9ff;
+$blue-sub: #6eafe1;
+
+// Cases
+$cases-bg: #F9FBFB;
+$cases-gray-light: #F3F7F7;
+$cases-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
